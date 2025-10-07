@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fb08025432df91b837be2d9c306ebad8 {
+                #map_39f20d8a8a0e43deca39664e6a0b0f8c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -44,22 +44,17 @@
             z-index:9999; font-size:14px; background-color:white;
             padding: 10px">
     <b>Legenda</b><br>
-    <i style="color:red">■</i> Odrzucone<br>
     <i style="color:green">■</i> Współpraca<br>
-    <i style="color:brown">■</i> Inne statusy<br>
-    <i style="color:yellow">■</i> W toku<br>
-    <i style="color:white; border:1px solid black">■</i> Nie rozpoczęto<br>
-    <i style="color:purple">■</i> Do rozpatrzenia w przyszłości<br>
 </div>
     
-            <div class="folium-map" id="map_fb08025432df91b837be2d9c306ebad8" ></div>
+            <div class="folium-map" id="map_39f20d8a8a0e43deca39664e6a0b0f8c" ></div>
         
 </body>
 <script>
     
     
-            var map_fb08025432df91b837be2d9c306ebad8 = L.map(
-                "map_fb08025432df91b837be2d9c306ebad8",
+            var map_39f20d8a8a0e43deca39664e6a0b0f8c = L.map(
+                "map_39f20d8a8a0e43deca39664e6a0b0f8c",
                 {
                     center: [51.1079, 17.0385],
                     crs: L.CRS.EPSG3857,
@@ -76,7 +71,7 @@
 
         
     
-            var tile_layer_0b771eaebe78ccc62af0e464713201c8 = L.tileLayer(
+            var tile_layer_00abffb4a31c16e292e36b4f53f84a97 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -93,429 +88,33 @@
             );
         
     
-            tile_layer_0b771eaebe78ccc62af0e464713201c8.addTo(map_fb08025432df91b837be2d9c306ebad8);
+            tile_layer_00abffb4a31c16e292e36b4f53f84a97.addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-            var circle_marker_6517e7526ab9e8c6be1b5effdff1b221 = L.circleMarker(
-                [51.1093723, 17.0559846],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_49879f2bf6ebf3f956e900a42efe4138 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_8be77d3269fe8cca6adbb30bd6a9cf6f = $(`<div id="html_8be77d3269fe8cca6adbb30bd6a9cf6f" style="width: 100.0%; height: 100.0%;">Najświętszego Serca Jezusowego<br>Grunwaldzki 3, 50-377 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_49879f2bf6ebf3f956e900a42efe4138.setContent(html_8be77d3269fe8cca6adbb30bd6a9cf6f);
-            
-        
-
-        circle_marker_6517e7526ab9e8c6be1b5effdff1b221.bindPopup(popup_49879f2bf6ebf3f956e900a42efe4138)
-        ;
-
-        
-    
-    
-            circle_marker_6517e7526ab9e8c6be1b5effdff1b221.bindTooltip(
-                `<div>
-                     Najświętszego Serca Jezusowego<br>Współpraca
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_a14464f9c90f69348c282611f241c517 = L.circleMarker(
-                [51.1046942, 17.0313806],
+            var circle_marker_a289fc1861602e327de170687f372b97 = L.circleMarker(
+                [51.1342612, 17.0799111],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_642dc118669ad2ba12ca1e8d86445b5c = L.popup({
+        var popup_c1b4c3b5413d8ba9e7d60b42cbb2e757 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_291f15a791136e002381708744195ed1 = $(`<div id="html_291f15a791136e002381708744195ed1" style="width: 100.0%; height: 100.0%;">Bożego Ciała<br>Świdnicka 38, 50-068 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_642dc118669ad2ba12ca1e8d86445b5c.setContent(html_291f15a791136e002381708744195ed1);
+                var html_67df5059ccb7d7ef1431d2777f9c0d44 = $(`<div id="html_67df5059ccb7d7ef1431d2777f9c0d44" style="width: 100.0%; height: 100.0%;">Wrocław-Kowale, Najświętszej Maryi Panny Matki Miłosierdzia<br>Brücknera 20/22, 51-411 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_c1b4c3b5413d8ba9e7d60b42cbb2e757.setContent(html_67df5059ccb7d7ef1431d2777f9c0d44);
             
         
 
-        circle_marker_a14464f9c90f69348c282611f241c517.bindPopup(popup_642dc118669ad2ba12ca1e8d86445b5c)
+        circle_marker_a289fc1861602e327de170687f372b97.bindPopup(popup_c1b4c3b5413d8ba9e7d60b42cbb2e757)
         ;
 
         
     
     
-            circle_marker_a14464f9c90f69348c282611f241c517.bindTooltip(
-                `<div>
-                     Bożego Ciała<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_8461121c65751f97f5f26778f5f1f174 = L.circleMarker(
-                [51.0932601, 17.0106587],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_c37c17a38d1413adf63023cdf7f752a3 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_3cae7f7bf3161830885dd1c989ca08db = $(`<div id="html_3cae7f7bf3161830885dd1c989ca08db" style="width: 100.0%; height: 100.0%;">Wrocław -Śródmieście, św. Karola Boromeusza<br>Krucza 58, 53-411 Wrocław<br>Status: W toku</div>`)[0];
-                popup_c37c17a38d1413adf63023cdf7f752a3.setContent(html_3cae7f7bf3161830885dd1c989ca08db);
-            
-        
-
-        circle_marker_8461121c65751f97f5f26778f5f1f174.bindPopup(popup_c37c17a38d1413adf63023cdf7f752a3)
-        ;
-
-        
-    
-    
-            circle_marker_8461121c65751f97f5f26778f5f1f174.bindTooltip(
-                `<div>
-                     Wrocław -Śródmieście, św. Karola Boromeusza<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_30b6ab21550148331c6eb1d805487c18 = L.circleMarker(
-                [51.1236538, 16.9752377],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_379b55bab25eaf7c614fccb5042e3cb9 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_bbb155f76ddf975f5992b9cb14594e59 = $(`<div id="html_bbb155f76ddf975f5992b9cb14594e59" style="width: 100.0%; height: 100.0%;">Wrocław-Gądów, św. Maksymiliana Marii Kolbego<br>Horbaczewskiego 20, 54-130 Wrocław<br>Status: W toku</div>`)[0];
-                popup_379b55bab25eaf7c614fccb5042e3cb9.setContent(html_bbb155f76ddf975f5992b9cb14594e59);
-            
-        
-
-        circle_marker_30b6ab21550148331c6eb1d805487c18.bindPopup(popup_379b55bab25eaf7c614fccb5042e3cb9)
-        ;
-
-        
-    
-    
-            circle_marker_30b6ab21550148331c6eb1d805487c18.bindTooltip(
-                `<div>
-                     Wrocław-Gądów, św. Maksymiliana Marii Kolbego<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1d27ca37f8288a172a88f781cc261667 = L.circleMarker(
-                [51.1146306, 17.0412122],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_10e7d3eaed1d072df78e41a6ede5a831 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_688680c0278c5f0df21b039981d554ca = $(`<div id="html_688680c0278c5f0df21b039981d554ca" style="width: 100.0%; height: 100.0%;">Najświętszej Maryi Panny na Piasku<br>św. Jadwigi 1	 50-266 Wrocław<br>Status: W toku</div>`)[0];
-                popup_10e7d3eaed1d072df78e41a6ede5a831.setContent(html_688680c0278c5f0df21b039981d554ca);
-            
-        
-
-        circle_marker_1d27ca37f8288a172a88f781cc261667.bindPopup(popup_10e7d3eaed1d072df78e41a6ede5a831)
-        ;
-
-        
-    
-    
-            circle_marker_1d27ca37f8288a172a88f781cc261667.bindTooltip(
-                `<div>
-                     Najświętszej Maryi Panny na Piasku<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_bbeab3da0dea5c3fd13e07cd64527a8d = L.circleMarker(
-                [51.106378, 17.0299597],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_72b62a38ff32fa2fa9fd26f405ca3811 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_a66f322733180e67d7c524787cbeb01a = $(`<div id="html_a66f322733180e67d7c524787cbeb01a" style="width: 100.0%; height: 100.0%;">Wrocław - Śródmieście, św Stanisława, św. Doroty i św. Wacława<br>Plac Wolności 3, 50-071 Wrocław<br>Status: W toku</div>`)[0];
-                popup_72b62a38ff32fa2fa9fd26f405ca3811.setContent(html_a66f322733180e67d7c524787cbeb01a);
-            
-        
-
-        circle_marker_bbeab3da0dea5c3fd13e07cd64527a8d.bindPopup(popup_72b62a38ff32fa2fa9fd26f405ca3811)
-        ;
-
-        
-    
-    
-            circle_marker_bbeab3da0dea5c3fd13e07cd64527a8d.bindTooltip(
-                `<div>
-                     Wrocław - Śródmieście, św Stanisława, św. Doroty i św. Wacława<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_864f363ce5e9c537b238a0e1096e2532 = L.circleMarker(
-                [51.1137879, 17.0334254],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_781434d19dfe2361ca62607e197d83b7 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_4aa5ca5d845f69b961501ea25701b751 = $(`<div id="html_4aa5ca5d845f69b961501ea25701b751" style="width: 100.0%; height: 100.0%;">Najświętszego Imienia Jezus<br>Plac Uniwersytecki 1, 50-137 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_781434d19dfe2361ca62607e197d83b7.setContent(html_4aa5ca5d845f69b961501ea25701b751);
-            
-        
-
-        circle_marker_864f363ce5e9c537b238a0e1096e2532.bindPopup(popup_781434d19dfe2361ca62607e197d83b7)
-        ;
-
-        
-    
-    
-            circle_marker_864f363ce5e9c537b238a0e1096e2532.bindTooltip(
-                `<div>
-                     Najświętszego Imienia Jezus<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_2f12cf02070c7a5996f69549ce832116 = L.circleMarker(
-                [51.1091991, 17.0245874],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_e70c1bbc034ba5095fdcf772fb9273e5 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_c501167569341e3e489c8dab6aeb7ab7 = $(`<div id="html_c501167569341e3e489c8dab6aeb7ab7" style="width: 100.0%; height: 100.0%;">św. Mikołaja<br>Świętego Antoniego 30, 50-073 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_e70c1bbc034ba5095fdcf772fb9273e5.setContent(html_c501167569341e3e489c8dab6aeb7ab7);
-            
-        
-
-        circle_marker_2f12cf02070c7a5996f69549ce832116.bindPopup(popup_e70c1bbc034ba5095fdcf772fb9273e5)
-        ;
-
-        
-    
-    
-            circle_marker_2f12cf02070c7a5996f69549ce832116.bindTooltip(
-                `<div>
-                     św. Mikołaja<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_99b43010208e57974cf6b2efa4a2ffcd = L.circleMarker(
-                [51.1011266, 17.0064735],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_8360fba62d7992fc6acd81a84c31700e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_daa27d5ae81c93f7d750f3e86b0bd334 = $(`<div id="html_daa27d5ae81c93f7d750f3e86b0bd334" style="width: 100.0%; height: 100.0%;">św. Elżbiety<br>Grabiszyńska 103, 53-439 Wrocław <br>Status: Odrzucone</div>`)[0];
-                popup_8360fba62d7992fc6acd81a84c31700e.setContent(html_daa27d5ae81c93f7d750f3e86b0bd334);
-            
-        
-
-        circle_marker_99b43010208e57974cf6b2efa4a2ffcd.bindPopup(popup_8360fba62d7992fc6acd81a84c31700e)
-        ;
-
-        
-    
-    
-            circle_marker_99b43010208e57974cf6b2efa4a2ffcd.bindTooltip(
-                `<div>
-                     św. Elżbiety<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ad93bd9ccd52c571a5ff39cbbad2eea0 = L.circleMarker(
-                [51.1118717, 17.0309385],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_b34e89ffe5899eed81711e54c099580d = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2cf8d62e7fccd229493684aa01852108 = $(`<div id="html_2cf8d62e7fccd229493684aa01852108" style="width: 100.0%; height: 100.0%;">św. Elżbiety - parafia Ordynariatu Polowego WP<br>Świętej Elżbiety 1/2, 50-111 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_b34e89ffe5899eed81711e54c099580d.setContent(html_2cf8d62e7fccd229493684aa01852108);
-            
-        
-
-        circle_marker_ad93bd9ccd52c571a5ff39cbbad2eea0.bindPopup(popup_b34e89ffe5899eed81711e54c099580d)
-        ;
-
-        
-    
-    
-            circle_marker_ad93bd9ccd52c571a5ff39cbbad2eea0.bindTooltip(
-                `<div>
-                     św. Elżbiety - parafia Ordynariatu Polowego WP<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_72c81bfaac4fda1a36902c1f33507762 = L.circleMarker(
-                [51.141135, 16.9580632],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_e601cf95ad97786e7d43b97021e8570d = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_0ce5dfb263bbfaceabff10c9af0253bd = $(`<div id="html_0ce5dfb263bbfaceabff10c9af0253bd" style="width: 100.0%; height: 100.0%;">Wrocław-Pilczyce, Macierzyństwa Najświętszej Maryi Panny <br>Pilczycka 139, 54-144 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_e601cf95ad97786e7d43b97021e8570d.setContent(html_0ce5dfb263bbfaceabff10c9af0253bd);
-            
-        
-
-        circle_marker_72c81bfaac4fda1a36902c1f33507762.bindPopup(popup_e601cf95ad97786e7d43b97021e8570d)
-        ;
-
-        
-    
-    
-            circle_marker_72c81bfaac4fda1a36902c1f33507762.bindTooltip(
-                `<div>
-                     Wrocław-Pilczyce, Macierzyństwa Najświętszej Maryi Panny <br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_4da63e18660b119bec1d502db2ca21f3 = L.circleMarker(
-                [51.1202943, 17.0505388],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_b01d4b6a4e418c9296898edc83d4e70f = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_25e285778e0e12b20f2d6735f6aca96c = $(`<div id="html_25e285778e0e12b20f2d6735f6aca96c" style="width: 100.0%; height: 100.0%;">św. Michała Archanioła<br>Bolesława Prusa 78, 50-318 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_b01d4b6a4e418c9296898edc83d4e70f.setContent(html_25e285778e0e12b20f2d6735f6aca96c);
-            
-        
-
-        circle_marker_4da63e18660b119bec1d502db2ca21f3.bindPopup(popup_b01d4b6a4e418c9296898edc83d4e70f)
-        ;
-
-        
-    
-    
-            circle_marker_4da63e18660b119bec1d502db2ca21f3.bindTooltip(
-                `<div>
-                     św. Michała Archanioła<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e9968c69a652ea7e272eaa8f155d3939 = L.circleMarker(
-                [51.1364679, 17.0807487],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_32d15db69888189f99044be5b9b6bdd4 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2d8c6b27e4828bd1bf7149b5ba3288b7 = $(`<div id="html_2d8c6b27e4828bd1bf7149b5ba3288b7" style="width: 100.0%; height: 100.0%;">Wrocław-Kowale, Najświętszej Maryi Panny Matki Miłosierdzia<br>Brücknera 20/22, 51-411 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_32d15db69888189f99044be5b9b6bdd4.setContent(html_2d8c6b27e4828bd1bf7149b5ba3288b7);
-            
-        
-
-        circle_marker_e9968c69a652ea7e272eaa8f155d3939.bindPopup(popup_32d15db69888189f99044be5b9b6bdd4)
-        ;
-
-        
-    
-    
-            circle_marker_e9968c69a652ea7e272eaa8f155d3939.bindTooltip(
+            circle_marker_a289fc1861602e327de170687f372b97.bindTooltip(
                 `<div>
                      Wrocław-Kowale, Najświętszej Maryi Panny Matki Miłosierdzia<br>Współpraca
                  </div>`,
@@ -525,30 +124,30 @@
             );
         
     
-            var circle_marker_b0978f5a2be4168941bcbad098b231fe = L.circleMarker(
+            var circle_marker_356e7371a36cb53d8c3a79e22c283525 = L.circleMarker(
                 [51.1214348, 17.0416381],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_99fc34a6a402d6c242cfe07dd1251402 = L.popup({
+        var popup_0cf1872b39f3727b640fc8da824d4188 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_328a6aa4465bbae11baf64284909ef22 = $(`<div id="html_328a6aa4465bbae11baf64284909ef22" style="width: 100.0%; height: 100.0%;">Wrocław-Ołbin, Opieki św. Józefa<br>Ołbińska 1, 50-233 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_99fc34a6a402d6c242cfe07dd1251402.setContent(html_328a6aa4465bbae11baf64284909ef22);
+                var html_67b03637bc1108a1aafe806f52da3712 = $(`<div id="html_67b03637bc1108a1aafe806f52da3712" style="width: 100.0%; height: 100.0%;">Wrocław-Ołbin, Opieki św. Józefa<br>Ołbińska 1, 50-233 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_0cf1872b39f3727b640fc8da824d4188.setContent(html_67b03637bc1108a1aafe806f52da3712);
             
         
 
-        circle_marker_b0978f5a2be4168941bcbad098b231fe.bindPopup(popup_99fc34a6a402d6c242cfe07dd1251402)
+        circle_marker_356e7371a36cb53d8c3a79e22c283525.bindPopup(popup_0cf1872b39f3727b640fc8da824d4188)
         ;
 
         
     
     
-            circle_marker_b0978f5a2be4168941bcbad098b231fe.bindTooltip(
+            circle_marker_356e7371a36cb53d8c3a79e22c283525.bindTooltip(
                 `<div>
                      Wrocław-Ołbin, Opieki św. Józefa<br>Współpraca
                  </div>`,
@@ -558,30 +157,30 @@
             );
         
     
-            var circle_marker_587ace89f602e855a1d49cca5cd26014 = L.circleMarker(
+            var circle_marker_54d93231743b9236d9bc045862aa258d = L.circleMarker(
                 [51.1065101, 17.0463125],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_389ad4f5a3dd1ec7f64ccc21675ee32f = L.popup({
+        var popup_90ca5728a95b5a29a21d16cfaae1fd0e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bcbe8d2c6913c1773c3fc6867f09d70b = $(`<div id="html_bcbe8d2c6913c1773c3fc6867f09d70b" style="width: 100.0%; height: 100.0%;">św. Maurycego<br>Traugutta 34	 50-417 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_389ad4f5a3dd1ec7f64ccc21675ee32f.setContent(html_bcbe8d2c6913c1773c3fc6867f09d70b);
+                var html_618ae6e12404437be6cea51c6c4a4e6a = $(`<div id="html_618ae6e12404437be6cea51c6c4a4e6a" style="width: 100.0%; height: 100.0%;">św. Maurycego<br>Traugutta 34	 50-417 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_90ca5728a95b5a29a21d16cfaae1fd0e.setContent(html_618ae6e12404437be6cea51c6c4a4e6a);
             
         
 
-        circle_marker_587ace89f602e855a1d49cca5cd26014.bindPopup(popup_389ad4f5a3dd1ec7f64ccc21675ee32f)
+        circle_marker_54d93231743b9236d9bc045862aa258d.bindPopup(popup_90ca5728a95b5a29a21d16cfaae1fd0e)
         ;
 
         
     
     
-            circle_marker_587ace89f602e855a1d49cca5cd26014.bindTooltip(
+            circle_marker_54d93231743b9236d9bc045862aa258d.bindTooltip(
                 `<div>
                      św. Maurycego<br>Współpraca
                  </div>`,
@@ -591,395 +190,32 @@
             );
         
     
-            var circle_marker_801068a1ec1861b5140c710c34b0db10 = L.circleMarker(
-                [51.1742967, 16.9095684],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_26a5f08fac4ad9b326fb6ac2e47df4e0 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_efde05afcb979729cfdcdad5ef9942ee = $(`<div id="html_efde05afcb979729cfdcdad5ef9942ee" style="width: 100.0%; height: 100.0%;">Wrocław - Oporów , Świętej Anny<br>Brodzka 163, 54-103 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_26a5f08fac4ad9b326fb6ac2e47df4e0.setContent(html_efde05afcb979729cfdcdad5ef9942ee);
-            
-        
-
-        circle_marker_801068a1ec1861b5140c710c34b0db10.bindPopup(popup_26a5f08fac4ad9b326fb6ac2e47df4e0)
-        ;
-
-        
-    
-    
-            circle_marker_801068a1ec1861b5140c710c34b0db10.bindTooltip(
-                `<div>
-                     Wrocław - Oporów , Świętej Anny<br>Współpraca
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7980f1e38e367b264cb3250aa6023201 = L.circleMarker(
-                [51.0929358, 16.9873294],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_04a958ef8b96995c9341f175fce6c10b = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_59a297ad261dcd7decd0353541559baf = $(`<div id="html_59a297ad261dcd7decd0353541559baf" style="width: 100.0%; height: 100.0%;">Parafia św. Klemensa Dworzaka<br>Aleja Pracy 26, 53-232 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_04a958ef8b96995c9341f175fce6c10b.setContent(html_59a297ad261dcd7decd0353541559baf);
-            
-        
-
-        circle_marker_7980f1e38e367b264cb3250aa6023201.bindPopup(popup_04a958ef8b96995c9341f175fce6c10b)
-        ;
-
-        
-    
-    
-            circle_marker_7980f1e38e367b264cb3250aa6023201.bindTooltip(
-                `<div>
-                     Parafia św. Klemensa Dworzaka<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_4f11c12f68582db63adeb4bd9ed2f5a9 = L.circleMarker(
-                [51.1146022, 17.0463763],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_36571e9d20fe4765d9725e67545cb67e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_59f78df3bc0b6c6e4dce1f775a72d70f = $(`<div id="html_59f78df3bc0b6c6e4dce1f775a72d70f" style="width: 100.0%; height: 100.0%;">św. Jana Chrzciciela<br>Katedralny 18	 50-329 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_36571e9d20fe4765d9725e67545cb67e.setContent(html_59f78df3bc0b6c6e4dce1f775a72d70f);
-            
-        
-
-        circle_marker_4f11c12f68582db63adeb4bd9ed2f5a9.bindPopup(popup_36571e9d20fe4765d9725e67545cb67e)
-        ;
-
-        
-    
-    
-            circle_marker_4f11c12f68582db63adeb4bd9ed2f5a9.bindTooltip(
-                `<div>
-                     św. Jana Chrzciciela<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_fd47d8c3c2d5f4d0a00bc940e34c1b3c = L.circleMarker(
-                [51.1169212, 17.0757956],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_6eca2367eca6152b6ee53a0f5943c5ae = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_b5a215920ad96b579a836aafac96fdbc = $(`<div id="html_b5a215920ad96b579a836aafac96fdbc" style="width: 100.0%; height: 100.0%;">Wrocław-Zalesie, Najświętszej Maryi Panny Częstochowskiej<br>Aleja Jana Kochanowskiego 11, 51-601 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_6eca2367eca6152b6ee53a0f5943c5ae.setContent(html_b5a215920ad96b579a836aafac96fdbc);
-            
-        
-
-        circle_marker_fd47d8c3c2d5f4d0a00bc940e34c1b3c.bindPopup(popup_6eca2367eca6152b6ee53a0f5943c5ae)
-        ;
-
-        
-    
-    
-            circle_marker_fd47d8c3c2d5f4d0a00bc940e34c1b3c.bindTooltip(
-                `<div>
-                     Wrocław-Zalesie, Najświętszej Maryi Panny Częstochowskiej<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_c77b4881793132873d791a851ee1df25 = L.circleMarker(
-                [51.1146483, 17.0440863],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_ca39db8bcf69833d18407c3660669fc1 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_dc68baa504eb80494e900a00f8c830af = $(`<div id="html_dc68baa504eb80494e900a00f8c830af" style="width: 100.0%; height: 100.0%;">Świętego Krzyża<br>plac Kościelny 1, 50-329 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_ca39db8bcf69833d18407c3660669fc1.setContent(html_dc68baa504eb80494e900a00f8c830af);
-            
-        
-
-        circle_marker_c77b4881793132873d791a851ee1df25.bindPopup(popup_ca39db8bcf69833d18407c3660669fc1)
-        ;
-
-        
-    
-    
-            circle_marker_c77b4881793132873d791a851ee1df25.bindTooltip(
-                `<div>
-                     Świętego Krzyża<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_89bd4e386af28f6029d941404a71adaf = L.circleMarker(
-                [51.1184701, 17.0683992],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_c48f33ce9e0a04fcc856f59eefad3f88 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6d251b4dc72a75062d35f907690aa306 = $(`<div id="html_6d251b4dc72a75062d35f907690aa306" style="width: 100.0%; height: 100.0%;">św. Wawrzyńca<br>Bujwida 51	 50-368 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_c48f33ce9e0a04fcc856f59eefad3f88.setContent(html_6d251b4dc72a75062d35f907690aa306);
-            
-        
-
-        circle_marker_89bd4e386af28f6029d941404a71adaf.bindPopup(popup_c48f33ce9e0a04fcc856f59eefad3f88)
-        ;
-
-        
-    
-    
-            circle_marker_89bd4e386af28f6029d941404a71adaf.bindTooltip(
-                `<div>
-                     św. Wawrzyńca<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_750ab6a75494a2810e2b35c4d067b545 = L.circleMarker(
-                [51.0710548, 16.9977741],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_57ad0bef0664bd0fe1348ba3269e61a1 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_362c3625025f31e4bb012513da368d14 = $(`<div id="html_362c3625025f31e4bb012513da368d14" style="width: 100.0%; height: 100.0%;">Wrocław-Krzyki, Trójcy Świętej<br>Krzycka 42, 53-020 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_57ad0bef0664bd0fe1348ba3269e61a1.setContent(html_362c3625025f31e4bb012513da368d14);
-            
-        
-
-        circle_marker_750ab6a75494a2810e2b35c4d067b545.bindPopup(popup_57ad0bef0664bd0fe1348ba3269e61a1)
-        ;
-
-        
-    
-    
-            circle_marker_750ab6a75494a2810e2b35c4d067b545.bindTooltip(
-                `<div>
-                     Wrocław-Krzyki, Trójcy Świętej<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_32dcb5825c7809255317fb07e99897fe = L.circleMarker(
-                [51.1003209, 17.0205988],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_2d1555729a072a25ec4f8d5415f7b6d9 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d78bf6f4f8eb851a73a4a2c3210b9ce3 = $(`<div id="html_d78bf6f4f8eb851a73a4a2c3210b9ce3" style="width: 100.0%; height: 100.0%;">św. Ignacego Loyoli<br>Stysia 16	 53-526 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_2d1555729a072a25ec4f8d5415f7b6d9.setContent(html_d78bf6f4f8eb851a73a4a2c3210b9ce3);
-            
-        
-
-        circle_marker_32dcb5825c7809255317fb07e99897fe.bindPopup(popup_2d1555729a072a25ec4f8d5415f7b6d9)
-        ;
-
-        
-    
-    
-            circle_marker_32dcb5825c7809255317fb07e99897fe.bindTooltip(
-                `<div>
-                     św. Ignacego Loyoli<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e369f1307b2e16b31e96673502d3fb1d = L.circleMarker(
-                [51.057154, 17.0237653],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_0f7dc7c1794e0aaf080fe130ae84f1e3 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_7b5a53080508771224def595d99485c5 = $(`<div id="html_7b5a53080508771224def595d99485c5" style="width: 100.0%; height: 100.0%;">Wrocław-Ołtaszyn, Wniebowzięcia Najświętszej Maryi Panny<br>Pszczelarska 10, 52-233 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_0f7dc7c1794e0aaf080fe130ae84f1e3.setContent(html_7b5a53080508771224def595d99485c5);
-            
-        
-
-        circle_marker_e369f1307b2e16b31e96673502d3fb1d.bindPopup(popup_0f7dc7c1794e0aaf080fe130ae84f1e3)
-        ;
-
-        
-    
-    
-            circle_marker_e369f1307b2e16b31e96673502d3fb1d.bindTooltip(
-                `<div>
-                     Wrocław-Ołtaszyn, Wniebowzięcia Najświętszej Maryi Panny<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_62a4c9ee8e16a8cadac6cf2cbef7bd4c = L.circleMarker(
+            var circle_marker_21a334438836c1fe5b8af4fec43b804c = L.circleMarker(
                 [51.0778073, 17.0624361],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_5ae8e34a4d83493effa598a26765bfee = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_86d916590fead0d6e6c7a3fd414d11b9 = $(`<div id="html_86d916590fead0d6e6c7a3fd414d11b9" style="width: 100.0%; height: 100.0%;">Wrocław-Tarnogaj, św. Stefana<br>Kamieniecka 72, 50-511 Wrocław<br>Status: W toku</div>`)[0];
-                popup_5ae8e34a4d83493effa598a26765bfee.setContent(html_86d916590fead0d6e6c7a3fd414d11b9);
-            
-        
-
-        circle_marker_62a4c9ee8e16a8cadac6cf2cbef7bd4c.bindPopup(popup_5ae8e34a4d83493effa598a26765bfee)
-        ;
-
-        
-    
-    
-            circle_marker_62a4c9ee8e16a8cadac6cf2cbef7bd4c.bindTooltip(
-                `<div>
-                     Wrocław-Tarnogaj, św. Stefana<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_b1c42f76205e26d5803b0a11b3574adc = L.circleMarker(
-                [51.0794679, 17.0351091],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_6524d302f493e7db899cd3c016844c87 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_fa33abe808f3a75a3996574e7aea8cfb = $(`<div id="html_fa33abe808f3a75a3996574e7aea8cfb" style="width: 100.0%; height: 100.0%;">św. Franciszka z Asyżu<br>Borowska 174	 50-558 Wrocław<br>Status: W toku</div>`)[0];
-                popup_6524d302f493e7db899cd3c016844c87.setContent(html_fa33abe808f3a75a3996574e7aea8cfb);
-            
-        
-
-        circle_marker_b1c42f76205e26d5803b0a11b3574adc.bindPopup(popup_6524d302f493e7db899cd3c016844c87)
-        ;
-
-        
-    
-    
-            circle_marker_b1c42f76205e26d5803b0a11b3574adc.bindTooltip(
-                `<div>
-                     św. Franciszka z Asyżu<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ed92f77e7f5c9d3711f2d2990f7577c0 = L.circleMarker(
-                [51.0937039, 17.059477],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_f3c30acd1a5c16cec74f530b15076dc3 = L.popup({
+        var popup_5886d284ad5bfcdcec43649260ad6b0b = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_3388bba0e8020631e9e70b324dae5616 = $(`<div id="html_3388bba0e8020631e9e70b324dae5616" style="width: 100.0%; height: 100.0%;">św. Józefa Rzemieślnika<br>Krakowska 44/46, 50-425 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_f3c30acd1a5c16cec74f530b15076dc3.setContent(html_3388bba0e8020631e9e70b324dae5616);
+                var html_9c1920dad718be725990c2881c0dc720 = $(`<div id="html_9c1920dad718be725990c2881c0dc720" style="width: 100.0%; height: 100.0%;">Wrocław-Tarnogaj, św. Stefana<br>Kamieniecka 72, 50-511 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_5886d284ad5bfcdcec43649260ad6b0b.setContent(html_9c1920dad718be725990c2881c0dc720);
             
         
 
-        circle_marker_ed92f77e7f5c9d3711f2d2990f7577c0.bindPopup(popup_f3c30acd1a5c16cec74f530b15076dc3)
+        circle_marker_21a334438836c1fe5b8af4fec43b804c.bindPopup(popup_5886d284ad5bfcdcec43649260ad6b0b)
         ;
 
         
     
     
-            circle_marker_ed92f77e7f5c9d3711f2d2990f7577c0.bindTooltip(
+            circle_marker_21a334438836c1fe5b8af4fec43b804c.bindTooltip(
                 `<div>
-                     św. Józefa Rzemieślnika<br>Do rozpatrzenia w przyszłości
+                     Wrocław-Tarnogaj, św. Stefana<br>Współpraca
                  </div>`,
                 {
   "sticky": true,
@@ -987,294 +223,30 @@
             );
         
     
-            var circle_marker_9435ed54bddf4252450958875d7a108f = L.circleMarker(
-                [51.0664787, 17.0333743],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_875f2987f894b08421c0182310617b2e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d2e298986db3ceb0e0971aa12379318c = $(`<div id="html_d2e298986db3ceb0e0971aa12379318c" style="width: 100.0%; height: 100.0%;">Wrocław-Wojszyce, Najświętszego Zbawiciela<br>Pawła Jasienicy 4, 52-230 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_875f2987f894b08421c0182310617b2e.setContent(html_d2e298986db3ceb0e0971aa12379318c);
-            
-        
-
-        circle_marker_9435ed54bddf4252450958875d7a108f.bindPopup(popup_875f2987f894b08421c0182310617b2e)
-        ;
-
-        
-    
-    
-            circle_marker_9435ed54bddf4252450958875d7a108f.bindTooltip(
-                `<div>
-                     Wrocław-Wojszyce, Najświętszego Zbawiciela<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_8db61dc34ea15727dd41017c84383898 = L.circleMarker(
-                [51.0583416, 17.0573139],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_36afae85b4ed4385505fcf6a0a32fcea = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_ff02bf08d988e3b737c3461c7d43f953 = $(`<div id="html_ff02bf08d988e3b737c3461c7d43f953" style="width: 100.0%; height: 100.0%;">Wrocław-Jagodno, Miłosierdzia Bożego<br>Jagodzińska 3/5, 52-129 Wrocław<br>Status: W toku</div>`)[0];
-                popup_36afae85b4ed4385505fcf6a0a32fcea.setContent(html_ff02bf08d988e3b737c3461c7d43f953);
-            
-        
-
-        circle_marker_8db61dc34ea15727dd41017c84383898.bindPopup(popup_36afae85b4ed4385505fcf6a0a32fcea)
-        ;
-
-        
-    
-    
-            circle_marker_8db61dc34ea15727dd41017c84383898.bindTooltip(
-                `<div>
-                     Wrocław-Jagodno, Miłosierdzia Bożego<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_b1a65a3545e0e738931f2b0c2bd0c9a7 = L.circleMarker(
-                [51.0778419, 17.0895444],
-                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_a5f3c3fa59512c029198cd833a3519d4 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2ad37f60488fa503808ff14b080cac50 = $(`<div id="html_2ad37f60488fa503808ff14b080cac50" style="width: 100.0%; height: 100.0%;">Wrocław-Księże Małe, Najświętszej Maryi Panny Wspomożycielki Wiernych<br>Świątnicka 32, 52-018 Wrocław<br>Status: Do rozpatrzenia w przyszłości</div>`)[0];
-                popup_a5f3c3fa59512c029198cd833a3519d4.setContent(html_2ad37f60488fa503808ff14b080cac50);
-            
-        
-
-        circle_marker_b1a65a3545e0e738931f2b0c2bd0c9a7.bindPopup(popup_a5f3c3fa59512c029198cd833a3519d4)
-        ;
-
-        
-    
-    
-            circle_marker_b1a65a3545e0e738931f2b0c2bd0c9a7.bindTooltip(
-                `<div>
-                     Wrocław-Księże Małe, Najświętszej Maryi Panny Wspomożycielki Wiernych<br>Do rozpatrzenia w przyszłości
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_10b8f4f7a1e2dbd54b6318c782bc4943 = L.circleMarker(
-                [51.09426, 17.0340991],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_75ac5c6068be005b4c98f22b1b3ba4c3 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_752fb8d0a83e18ee9b532371e601be85 = $(`<div id="html_752fb8d0a83e18ee9b532371e601be85" style="width: 100.0%; height: 100.0%;">św. Henryka<br>Gliniana 16, 50-525 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_75ac5c6068be005b4c98f22b1b3ba4c3.setContent(html_752fb8d0a83e18ee9b532371e601be85);
-            
-        
-
-        circle_marker_10b8f4f7a1e2dbd54b6318c782bc4943.bindPopup(popup_75ac5c6068be005b4c98f22b1b3ba4c3)
-        ;
-
-        
-    
-    
-            circle_marker_10b8f4f7a1e2dbd54b6318c782bc4943.bindTooltip(
-                `<div>
-                     św. Henryka<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ae33d968b801a4397e98f4f0d7ea4ca8 = L.circleMarker(
-                [51.0890705, 17.0439008],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_2d1c49a18d4af8eba714bbfcfc099552 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6352863be93fa1e412385ff9fc967a2f = $(`<div id="html_6352863be93fa1e412385ff9fc967a2f" style="width: 100.0%; height: 100.0%;">św. Stanisława Kostki<br>Hubska 89, 50-529 Wrocław<br>Status: W toku</div>`)[0];
-                popup_2d1c49a18d4af8eba714bbfcfc099552.setContent(html_6352863be93fa1e412385ff9fc967a2f);
-            
-        
-
-        circle_marker_ae33d968b801a4397e98f4f0d7ea4ca8.bindPopup(popup_2d1c49a18d4af8eba714bbfcfc099552)
-        ;
-
-        
-    
-    
-            circle_marker_ae33d968b801a4397e98f4f0d7ea4ca8.bindTooltip(
-                `<div>
-                     św. Stanisława Kostki<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_330ff72c345e91125ccf37a9478ffe64 = L.circleMarker(
-                [51.0628687, 17.0801117],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_55ab50fe7e95dc6ce6c59f86e8edaaf1 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_58da57410e4a3839478bc695fa0a5a81 = $(`<div id="html_58da57410e4a3839478bc695fa0a5a81" style="width: 100.0%; height: 100.0%;">Wrocław-Brochów, św. Jerzego Męczennika i Podwyższenia Krzyża Świętego<br>Biegła 3, 52-115 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_55ab50fe7e95dc6ce6c59f86e8edaaf1.setContent(html_58da57410e4a3839478bc695fa0a5a81);
-            
-        
-
-        circle_marker_330ff72c345e91125ccf37a9478ffe64.bindPopup(popup_55ab50fe7e95dc6ce6c59f86e8edaaf1)
-        ;
-
-        
-    
-    
-            circle_marker_330ff72c345e91125ccf37a9478ffe64.bindTooltip(
-                `<div>
-                     Wrocław-Brochów, św. Jerzego Męczennika i Podwyższenia Krzyża Świętego<br>Współpraca
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_9aa6944ab81ff38b221c224930591bad = L.circleMarker(
-                [51.1265103, 16.9880916],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_a3ff12fac5654315ab34669e6d050d33 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_ca6339b0ef0dfbdcc1b2acaa12511f3f = $(`<div id="html_ca6339b0ef0dfbdcc1b2acaa12511f3f" style="width: 100.0%; height: 100.0%;">Wrocław-Popowice, Najświętszej Maryi Panny Królowej Pokoju<br>Ojców Oblatów 1, 54-239 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_a3ff12fac5654315ab34669e6d050d33.setContent(html_ca6339b0ef0dfbdcc1b2acaa12511f3f);
-            
-        
-
-        circle_marker_9aa6944ab81ff38b221c224930591bad.bindPopup(popup_a3ff12fac5654315ab34669e6d050d33)
-        ;
-
-        
-    
-    
-            circle_marker_9aa6944ab81ff38b221c224930591bad.bindTooltip(
-                `<div>
-                     Wrocław-Popowice, Najświętszej Maryi Panny Królowej Pokoju<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_d46bf6ef8ad09b19cff669e6a16c532c = L.circleMarker(
-                [51.0846457, 17.0498913],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_42ea538251f146aa9bc3f64f708350db = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_17584633dec0991941465640a4346141 = $(`<div id="html_17584633dec0991941465640a4346141" style="width: 100.0%; height: 100.0%;">Ducha Świętego<br>Bardzka 2/4	 50-516 Wrocław<br>Status: Odrzucone</div>`)[0];
-                popup_42ea538251f146aa9bc3f64f708350db.setContent(html_17584633dec0991941465640a4346141);
-            
-        
-
-        circle_marker_d46bf6ef8ad09b19cff669e6a16c532c.bindPopup(popup_42ea538251f146aa9bc3f64f708350db)
-        ;
-
-        
-    
-    
-            circle_marker_d46bf6ef8ad09b19cff669e6a16c532c.bindTooltip(
-                `<div>
-                     Ducha Świętego<br>Odrzucone
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_390cb1aa3406013b0eb83abd09fa3963 = L.circleMarker(
+            var circle_marker_ba4998c31a7d916c249780c586d03c20 = L.circleMarker(
                 [51.1371945, 17.0416939],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_d225b52b25787a1be29eeea512d8030d = L.popup({
+        var popup_39a4426717b0536737c65f4266e1318f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_2e2fa70b0e8c59fb6ed2fcf9396b3a47 = $(`<div id="html_2e2fa70b0e8c59fb6ed2fcf9396b3a47" style="width: 100.0%; height: 100.0%;">Wrocław-Karłowice, św. Antoniego<br>aleja Jana Kasprowicza 26, 51-131 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_d225b52b25787a1be29eeea512d8030d.setContent(html_2e2fa70b0e8c59fb6ed2fcf9396b3a47);
+                var html_68faddedfa5ce68ce9deed2f4c4370c3 = $(`<div id="html_68faddedfa5ce68ce9deed2f4c4370c3" style="width: 100.0%; height: 100.0%;">Wrocław-Karłowice, św. Antoniego<br>aleja Jana Kasprowicza 26, 51-131 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_39a4426717b0536737c65f4266e1318f.setContent(html_68faddedfa5ce68ce9deed2f4c4370c3);
             
         
 
-        circle_marker_390cb1aa3406013b0eb83abd09fa3963.bindPopup(popup_d225b52b25787a1be29eeea512d8030d)
+        circle_marker_ba4998c31a7d916c249780c586d03c20.bindPopup(popup_39a4426717b0536737c65f4266e1318f)
         ;
 
         
     
     
-            circle_marker_390cb1aa3406013b0eb83abd09fa3963.bindTooltip(
+            circle_marker_ba4998c31a7d916c249780c586d03c20.bindTooltip(
                 `<div>
                      Wrocław-Karłowice, św. Antoniego<br>Współpraca
                  </div>`,
@@ -1284,30 +256,30 @@
             );
         
     
-            var circle_marker_95ddb25fde4988718cf4c414ab9156a1 = L.circleMarker(
+            var circle_marker_2d1162362f7bb8ef2c9b1f66dc557898 = L.circleMarker(
                 [51.1152229, 17.0130865],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_c015028b650d418760c338fdac590c9d = L.popup({
+        var popup_4507377fed3094d2c58020ed12658eca = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_0156afa2ba67673539c82b64ca8bb752 = $(`<div id="html_0156afa2ba67673539c82b64ca8bb752" style="width: 100.0%; height: 100.0%;">Wrocław, Chrystusa Króla<br>Młodych Techników 17, 53-647 Wrocław<br>Status: Współpraca</div>`)[0];
-                popup_c015028b650d418760c338fdac590c9d.setContent(html_0156afa2ba67673539c82b64ca8bb752);
+                var html_94b615a1b35aff96733b711766ca060a = $(`<div id="html_94b615a1b35aff96733b711766ca060a" style="width: 100.0%; height: 100.0%;">Wrocław, Chrystusa Króla<br>Młodych Techników 17, 53-647 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_4507377fed3094d2c58020ed12658eca.setContent(html_94b615a1b35aff96733b711766ca060a);
             
         
 
-        circle_marker_95ddb25fde4988718cf4c414ab9156a1.bindPopup(popup_c015028b650d418760c338fdac590c9d)
+        circle_marker_2d1162362f7bb8ef2c9b1f66dc557898.bindPopup(popup_4507377fed3094d2c58020ed12658eca)
         ;
 
         
     
     
-            circle_marker_95ddb25fde4988718cf4c414ab9156a1.bindTooltip(
+            circle_marker_2d1162362f7bb8ef2c9b1f66dc557898.bindTooltip(
                 `<div>
                      Wrocław, Chrystusa Króla<br>Współpraca
                  </div>`,
@@ -1317,32 +289,32 @@
             );
         
     
-            var circle_marker_b658ca60f38514289df2fdac3c793bdd = L.circleMarker(
-                [51.1432881, 16.9896435],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+            var circle_marker_447af6b79b77052967b85401cf3eebe7 = L.circleMarker(
+                [51.1521481, 17.0703363],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_4926d66e23676314944bd7e81061e33b = L.popup({
+        var popup_f144d96905d9293c4efa4df6e6a68a72 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ce0aa0f61d8fe81b0c4259a214a5e832 = $(`<div id="html_ce0aa0f61d8fe81b0c4259a214a5e832" style="width: 100.0%; height: 100.0%;">Wrocław-Osobowice, św. Teresy od Dzieciątka Jezus<br>Osobowicka 129, 51-004 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_4926d66e23676314944bd7e81061e33b.setContent(html_ce0aa0f61d8fe81b0c4259a214a5e832);
+                var html_b00a0e3d4b28c787a8f57d5b111a2c05 = $(`<div id="html_b00a0e3d4b28c787a8f57d5b111a2c05" style="width: 100.0%; height: 100.0%;">Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Redycka 10/12, 51-169 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_f144d96905d9293c4efa4df6e6a68a72.setContent(html_b00a0e3d4b28c787a8f57d5b111a2c05);
             
         
 
-        circle_marker_b658ca60f38514289df2fdac3c793bdd.bindPopup(popup_4926d66e23676314944bd7e81061e33b)
+        circle_marker_447af6b79b77052967b85401cf3eebe7.bindPopup(popup_f144d96905d9293c4efa4df6e6a68a72)
         ;
 
         
     
     
-            circle_marker_b658ca60f38514289df2fdac3c793bdd.bindTooltip(
+            circle_marker_447af6b79b77052967b85401cf3eebe7.bindTooltip(
                 `<div>
-                     Wrocław-Osobowice, św. Teresy od Dzieciątka Jezus<br>Nie rozpoczęto
+                     Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Współpraca
                  </div>`,
                 {
   "sticky": true,
@@ -1350,296 +322,32 @@
             );
         
     
-            var circle_marker_f5a8c46981c86c138ecb643674888c12 = L.circleMarker(
-                [51.1340803, 17.0297707],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_593e0ccd28f6b620614353b6262a81d0 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6a7e31bae48d4311ef5936fca73ea756 = $(`<div id="html_6a7e31bae48d4311ef5936fca73ea756" style="width: 100.0%; height: 100.0%;">Wrocław-Polanka, Odkupiciela Świata<br>Macedońska 2, 51-113 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_593e0ccd28f6b620614353b6262a81d0.setContent(html_6a7e31bae48d4311ef5936fca73ea756);
-            
-        
-
-        circle_marker_f5a8c46981c86c138ecb643674888c12.bindPopup(popup_593e0ccd28f6b620614353b6262a81d0)
-        ;
-
-        
-    
-    
-            circle_marker_f5a8c46981c86c138ecb643674888c12.bindTooltip(
-                `<div>
-                     Wrocław-Polanka, Odkupiciela Świata<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_3463dba282e22462c1c366698a5faca7 = L.circleMarker(
-                [51.158039, 17.044067],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_6e2a07041c23878c1e00938baf9e0f25 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6971c771c4e195aa3b51a275f12aa3e3 = $(`<div id="html_6971c771c4e195aa3b51a275f12aa3e3" style="width: 100.0%; height: 100.0%;">Wrocław-Polanowice, Najświętszej Maryi Panny Matki Kościoła<br>Kamieńskiego 230, 51-126 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_6e2a07041c23878c1e00938baf9e0f25.setContent(html_6971c771c4e195aa3b51a275f12aa3e3);
-            
-        
-
-        circle_marker_3463dba282e22462c1c366698a5faca7.bindPopup(popup_6e2a07041c23878c1e00938baf9e0f25)
-        ;
-
-        
-    
-    
-            circle_marker_3463dba282e22462c1c366698a5faca7.bindTooltip(
-                `<div>
-                     Wrocław-Polanowice, Najświętszej Maryi Panny Matki Kościoła<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_350ed89187083bbe5aa4f23b228a6b01 = L.circleMarker(
-                [51.1354649, 17.0182584],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_530a415a7b9644ca050d9587bac8d3a5 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6d1df735a9ae052e49c999ee73b63cef = $(`<div id="html_6d1df735a9ae052e49c999ee73b63cef" style="width: 100.0%; height: 100.0%;">Wrocław-Różanka, Najświętszej Maryi Panny Bolesnej<br>Bałkańska 4, 51-111 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_530a415a7b9644ca050d9587bac8d3a5.setContent(html_6d1df735a9ae052e49c999ee73b63cef);
-            
-        
-
-        circle_marker_350ed89187083bbe5aa4f23b228a6b01.bindPopup(popup_530a415a7b9644ca050d9587bac8d3a5)
-        ;
-
-        
-    
-    
-            circle_marker_350ed89187083bbe5aa4f23b228a6b01.bindTooltip(
-                `<div>
-                     Wrocław-Różanka, Najświętszej Maryi Panny Bolesnej<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_566e73046004574a894a0bdd3d1973c1 = L.circleMarker(
-                [51.152081, 17.0704488],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_ff283c0ecb699a6b2bb56674ad43684a = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_5376bcdb58a25f4f845f20257215c895 = $(`<div id="html_5376bcdb58a25f4f845f20257215c895" style="width: 100.0%; height: 100.0%;">Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Redycka 10/12, 51-169 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_ff283c0ecb699a6b2bb56674ad43684a.setContent(html_5376bcdb58a25f4f845f20257215c895);
-            
-        
-
-        circle_marker_566e73046004574a894a0bdd3d1973c1.bindPopup(popup_ff283c0ecb699a6b2bb56674ad43684a)
-        ;
-
-        
-    
-    
-            circle_marker_566e73046004574a894a0bdd3d1973c1.bindTooltip(
-                `<div>
-                     Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7e945f20bb9f23c71ba6a33837a104d9 = L.circleMarker(
-                [51.1962852, 16.9760773],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_730783bf681e66722d4c309be3624559 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_494d98288e45213ef1dcd827ee264f72 = $(`<div id="html_494d98288e45213ef1dcd827ee264f72" style="width: 100.0%; height: 100.0%;">Wrocław-Świniary, św. Jadwigi<br>Pęgowska 10, 51-180 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_730783bf681e66722d4c309be3624559.setContent(html_494d98288e45213ef1dcd827ee264f72);
-            
-        
-
-        circle_marker_7e945f20bb9f23c71ba6a33837a104d9.bindPopup(popup_730783bf681e66722d4c309be3624559)
-        ;
-
-        
-    
-    
-            circle_marker_7e945f20bb9f23c71ba6a33837a104d9.bindTooltip(
-                `<div>
-                     Wrocław-Świniary, św. Jadwigi<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_f7e94d6173d6461107aba73440967fa6 = L.circleMarker(
-                [51.178753, 17.0161762],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_10a2b8f810ee1dbe05a7cbd9eaac229c = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_a1d678d0e77b027de9417ed71d145c2c = $(`<div id="html_a1d678d0e77b027de9417ed71d145c2c" style="width: 100.0%; height: 100.0%;">Wrocław-Widawa, św. Anny<br>Zduńska 8, 51-180 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_10a2b8f810ee1dbe05a7cbd9eaac229c.setContent(html_a1d678d0e77b027de9417ed71d145c2c);
-            
-        
-
-        circle_marker_f7e94d6173d6461107aba73440967fa6.bindPopup(popup_10a2b8f810ee1dbe05a7cbd9eaac229c)
-        ;
-
-        
-    
-    
-            circle_marker_f7e94d6173d6461107aba73440967fa6.bindTooltip(
-                `<div>
-                     Wrocław-Widawa, św. Anny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_535f19c6c494e8cf740b5f6893c300f5 = L.circleMarker(
-                [51.0647516, 16.9771336],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_6dc12e53fa6088b754580b340267e8d8 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_3038dd05fd1b9bd88c1e089466bd8bca = $(`<div id="html_3038dd05fd1b9bd88c1e089466bd8bca" style="width: 100.0%; height: 100.0%;">Wrocław-Klecina, Najświętszej Maryi Panny Królowej Polski<br>Karmelkowa 94, 53-319 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_6dc12e53fa6088b754580b340267e8d8.setContent(html_3038dd05fd1b9bd88c1e089466bd8bca);
-            
-        
-
-        circle_marker_535f19c6c494e8cf740b5f6893c300f5.bindPopup(popup_6dc12e53fa6088b754580b340267e8d8)
-        ;
-
-        
-    
-    
-            circle_marker_535f19c6c494e8cf740b5f6893c300f5.bindTooltip(
-                `<div>
-                     Wrocław-Klecina, Najświętszej Maryi Panny Królowej Polski<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ee2afec1c4e23e44e98daf31e332acf1 = L.circleMarker(
-                [51.0709316, 17.0137651],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_79fa95f35f2a550b135286de6ffe5bcf = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6126e9d75be03059e47fb504778dd551 = $(`<div id="html_6126e9d75be03059e47fb504778dd551" style="width: 100.0%; height: 100.0%;">Wrocław-Krzyki, Niepokalanego Poczęcia Najświętszej Maryi Panny<br>Agrestowa 20, 53-006 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_79fa95f35f2a550b135286de6ffe5bcf.setContent(html_6126e9d75be03059e47fb504778dd551);
-            
-        
-
-        circle_marker_ee2afec1c4e23e44e98daf31e332acf1.bindPopup(popup_79fa95f35f2a550b135286de6ffe5bcf)
-        ;
-
-        
-    
-    
-            circle_marker_ee2afec1c4e23e44e98daf31e332acf1.bindTooltip(
-                `<div>
-                     Wrocław-Krzyki, Niepokalanego Poczęcia Najświętszej Maryi Panny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_6631cecefe0df850f373395021e12f0d = L.circleMarker(
+            var circle_marker_50cb068cb0e00c03ab9e7825ea02cc34 = L.circleMarker(
                 [51.0753384, 16.972484],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_8d3c0db9d15ab13727c18455d699f430 = L.popup({
+        var popup_79c5716893a6972b474e5be33d3a1285 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_6b1f6379c186d4d4860121b29c74574a = $(`<div id="html_6b1f6379c186d4d4860121b29c74574a" style="width: 100.0%; height: 100.0%;">Wrocław-Oporów, św. Anny<br>Sobótki 42, 52-433 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_8d3c0db9d15ab13727c18455d699f430.setContent(html_6b1f6379c186d4d4860121b29c74574a);
+                var html_e2d776a9e54d5439846a4c87d79cd804 = $(`<div id="html_e2d776a9e54d5439846a4c87d79cd804" style="width: 100.0%; height: 100.0%;">Wrocław-Oporów, św. Anny<br>Sobótki 42, 52-433 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_79c5716893a6972b474e5be33d3a1285.setContent(html_e2d776a9e54d5439846a4c87d79cd804);
             
         
 
-        circle_marker_6631cecefe0df850f373395021e12f0d.bindPopup(popup_8d3c0db9d15ab13727c18455d699f430)
+        circle_marker_50cb068cb0e00c03ab9e7825ea02cc34.bindPopup(popup_79c5716893a6972b474e5be33d3a1285)
         ;
 
         
     
     
-            circle_marker_6631cecefe0df850f373395021e12f0d.bindTooltip(
+            circle_marker_50cb068cb0e00c03ab9e7825ea02cc34.bindTooltip(
                 `<div>
-                     Wrocław-Oporów, św. Anny<br>Nie rozpoczęto
+                     Wrocław-Oporów, św. Anny<br>Współpraca
                  </div>`,
                 {
   "sticky": true,
@@ -1647,758 +355,32 @@
             );
         
     
-            var circle_marker_a5ecc3d527129b5f80aea9d7668a790c = L.circleMarker(
-                [51.0562446, 17.0060201],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
+            var circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40 = L.circleMarker(
+                [51.1041119, 17.1454488],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
         
     
-        var popup_2855d3fb9b897c46959aeddcf600bf0a = L.popup({
+        var popup_ad779c1e7a1cae17dec586e6b172ffd9 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ef3a1038ccdaf2f79064dfadd177b3ee = $(`<div id="html_ef3a1038ccdaf2f79064dfadd177b3ee" style="width: 100.0%; height: 100.0%;">Wrocław-Partynice, Św. Ojca Pio z Pietrelciny<br>Ołtaszyńska 114, 53-034 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_2855d3fb9b897c46959aeddcf600bf0a.setContent(html_ef3a1038ccdaf2f79064dfadd177b3ee);
+                var html_412d545fa422e79a569e81e45461986e = $(`<div id="html_412d545fa422e79a569e81e45461986e" style="width: 100.0%; height: 100.0%;">Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Tatarakowa 1, 51-516 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_ad779c1e7a1cae17dec586e6b172ffd9.setContent(html_412d545fa422e79a569e81e45461986e);
             
         
 
-        circle_marker_a5ecc3d527129b5f80aea9d7668a790c.bindPopup(popup_2855d3fb9b897c46959aeddcf600bf0a)
+        circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40.bindPopup(popup_ad779c1e7a1cae17dec586e6b172ffd9)
         ;
 
         
     
     
-            circle_marker_a5ecc3d527129b5f80aea9d7668a790c.bindTooltip(
+            circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40.bindTooltip(
                 `<div>
-                     Wrocław-Partynice, Św. Ojca Pio z Pietrelciny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7d5fbe568becb4fd46429c763c890c4b = L.circleMarker(
-                [51.1040163, 17.1123089],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_b8d901cbe1cba26d8368c828b6d8bb0e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_aedc7ae40400d8a115a3a2cc597d7256 = $(`<div id="html_aedc7ae40400d8a115a3a2cc597d7256" style="width: 100.0%; height: 100.0%;">Wrocław-Biskupin, św. Faustyny<br>Maksymiliana Jackowskiego, 51-665 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_b8d901cbe1cba26d8368c828b6d8bb0e.setContent(html_aedc7ae40400d8a115a3a2cc597d7256);
-            
-        
-
-        circle_marker_7d5fbe568becb4fd46429c763c890c4b.bindPopup(popup_b8d901cbe1cba26d8368c828b6d8bb0e)
-        ;
-
-        
-    
-    
-            circle_marker_7d5fbe568becb4fd46429c763c890c4b.bindTooltip(
-                `<div>
-                     Wrocław-Biskupin, św. Faustyny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_cb0352c33147dbfd10d66bcf0a263463 = L.circleMarker(
-                [51.1022644, 17.0858293],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_f3eaf7b3d67661844c807341dbcefce1 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_030f0dfdd1e8dc584b9f3f46541f1ac6 = $(`<div id="html_030f0dfdd1e8dc584b9f3f46541f1ac6" style="width: 100.0%; height: 100.0%;">Wrocław-Dąbie, Najświętszej Maryi Panny Matki Pocieszenia<br>Edwarda Wittiga 10, 51-628 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_f3eaf7b3d67661844c807341dbcefce1.setContent(html_030f0dfdd1e8dc584b9f3f46541f1ac6);
-            
-        
-
-        circle_marker_cb0352c33147dbfd10d66bcf0a263463.bindPopup(popup_f3eaf7b3d67661844c807341dbcefce1)
-        ;
-
-        
-    
-    
-            circle_marker_cb0352c33147dbfd10d66bcf0a263463.bindTooltip(
-                `<div>
-                     Wrocław-Dąbie, Najświętszej Maryi Panny Matki Pocieszenia<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_85d12e46076615ef267a5095f85f7a1b = L.circleMarker(
-                [51.1068182, 17.1067576],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_a08c5a2054123494d832898130259aac = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_c4513ba4c1fc3a288e69f7c1a1e3cbc9 = $(`<div id="html_c4513ba4c1fc3a288e69f7c1a1e3cbc9" style="width: 100.0%; height: 100.0%;">Wrocław-Sępolno, Świętej Rodziny<br>Monte Cassino 68	 51-680 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_a08c5a2054123494d832898130259aac.setContent(html_c4513ba4c1fc3a288e69f7c1a1e3cbc9);
-            
-        
-
-        circle_marker_85d12e46076615ef267a5095f85f7a1b.bindPopup(popup_a08c5a2054123494d832898130259aac)
-        ;
-
-        
-    
-    
-            circle_marker_85d12e46076615ef267a5095f85f7a1b.bindTooltip(
-                `<div>
-                     Wrocław-Sępolno, Świętej Rodziny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1795230217baac3ddc7c9313761f7521 = L.circleMarker(
-                [51.1041224, 17.1454616],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_5dd5323efad0bce4a429e81aacac6c80 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_1b71e8d17c9e6ec8d106c788f4c5cb96 = $(`<div id="html_1b71e8d17c9e6ec8d106c788f4c5cb96" style="width: 100.0%; height: 100.0%;">Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Tatarakowa 1, 51-516 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_5dd5323efad0bce4a429e81aacac6c80.setContent(html_1b71e8d17c9e6ec8d106c788f4c5cb96);
-            
-        
-
-        circle_marker_1795230217baac3ddc7c9313761f7521.bindPopup(popup_5dd5323efad0bce4a429e81aacac6c80)
-        ;
-
-        
-    
-    
-            circle_marker_1795230217baac3ddc7c9313761f7521.bindTooltip(
-                `<div>
-                     Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e14ee2e4cfee07901a75480a2a12093d = L.circleMarker(
-                [51.1674309, 17.1077291],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_c0144a43d24e972e52b94ccc74aa12aa = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_f78d78d3b56def7703a4a5cee50a5a51 = $(`<div id="html_f78d78d3b56def7703a4a5cee50a5a51" style="width: 100.0%; height: 100.0%;">Wrocław-Pawłowice, Najświętszego Serca Pana Jezusa<br>Starodębowa 30a, 51-251 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_c0144a43d24e972e52b94ccc74aa12aa.setContent(html_f78d78d3b56def7703a4a5cee50a5a51);
-            
-        
-
-        circle_marker_e14ee2e4cfee07901a75480a2a12093d.bindPopup(popup_c0144a43d24e972e52b94ccc74aa12aa)
-        ;
-
-        
-    
-    
-            circle_marker_e14ee2e4cfee07901a75480a2a12093d.bindTooltip(
-                `<div>
-                     Wrocław-Pawłowice, Najświętszego Serca Pana Jezusa<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7d64f19ad6fdf8745d83b0e183b1250a = L.circleMarker(
-                [51.1450957, 17.1106732],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_e5d6b5e2867c123c6a31e15645165ee4 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_b2f7d2c0ebc2772018dc4a85779fcb1f = $(`<div id="html_b2f7d2c0ebc2772018dc4a85779fcb1f" style="width: 100.0%; height: 100.0%;">Wrocław-Psie Pole, św. Jakuba i św. Krzysztofa<br>Bolesława Krzywoustego 291, 51-310 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_e5d6b5e2867c123c6a31e15645165ee4.setContent(html_b2f7d2c0ebc2772018dc4a85779fcb1f);
-            
-        
-
-        circle_marker_7d64f19ad6fdf8745d83b0e183b1250a.bindPopup(popup_e5d6b5e2867c123c6a31e15645165ee4)
-        ;
-
-        
-    
-    
-            circle_marker_7d64f19ad6fdf8745d83b0e183b1250a.bindTooltip(
-                `<div>
-                     Wrocław-Psie Pole, św. Jakuba i św. Krzysztofa<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_a87293b6a562741d69c5dc2eb7a52e25 = L.circleMarker(
-                [51.1162648, 17.1266288],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_3f084ace1dec01fb958e4b602e70fa57 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_4a91406c19b34191131899a89feb9317 = $(`<div id="html_4a91406c19b34191131899a89feb9317" style="width: 100.0%; height: 100.0%;">Wrocław-Swojczyce, św. Jacka<br>Miłoszycka 20A, 51-503 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_3f084ace1dec01fb958e4b602e70fa57.setContent(html_4a91406c19b34191131899a89feb9317);
-            
-        
-
-        circle_marker_a87293b6a562741d69c5dc2eb7a52e25.bindPopup(popup_3f084ace1dec01fb958e4b602e70fa57)
-        ;
-
-        
-    
-    
-            circle_marker_a87293b6a562741d69c5dc2eb7a52e25.bindTooltip(
-                `<div>
-                     Wrocław-Swojczyce, św. Jacka<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e63c21c6937c4d35d58f0e399f4f7841 = L.circleMarker(
-                [51.1594332, 17.1308329],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_25a3d40faa9b44c0c0e338b90f76f4fc = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_bd1c66f6cd0cff4860594b1f09e76baa = $(`<div id="html_bd1c66f6cd0cff4860594b1f09e76baa" style="width: 100.0%; height: 100.0%;">Wrocław-Zakrzów, św. Jana Apostoła<br>Królewska 30, 51-200 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_25a3d40faa9b44c0c0e338b90f76f4fc.setContent(html_bd1c66f6cd0cff4860594b1f09e76baa);
-            
-        
-
-        circle_marker_e63c21c6937c4d35d58f0e399f4f7841.bindPopup(popup_25a3d40faa9b44c0c0e338b90f76f4fc)
-        ;
-
-        
-    
-    
-            circle_marker_e63c21c6937c4d35d58f0e399f4f7841.bindTooltip(
-                `<div>
-                     Wrocław-Zakrzów, św. Jana Apostoła<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_d5dbd866b67650d596a20fcc4675e412 = L.circleMarker(
-                [51.1420911, 17.1308552],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_96b1eb814bc802eb6a12e65eda503b99 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_c5c17477ca4dd207ed22877ab15ffbfa = $(`<div id="html_c5c17477ca4dd207ed22877ab15ffbfa" style="width: 100.0%; height: 100.0%;">Wrocław-Zgorzelisko, św. Kazimierza<br>Litewska 1, 52-007 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_96b1eb814bc802eb6a12e65eda503b99.setContent(html_c5c17477ca4dd207ed22877ab15ffbfa);
-            
-        
-
-        circle_marker_d5dbd866b67650d596a20fcc4675e412.bindPopup(popup_96b1eb814bc802eb6a12e65eda503b99)
-        ;
-
-        
-    
-    
-            circle_marker_d5dbd866b67650d596a20fcc4675e412.bindTooltip(
-                `<div>
-                     Wrocław-Zgorzelisko, św. Kazimierza<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_ce26d487d14986edcf2af50ffac2aabd = L.circleMarker(
-                [51.0870278, 17.0176094],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_b8495eaf11ef740f125abf25781dc4ff = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_f96c881c18e4e9b53fc7ec01413b03a9 = $(`<div id="html_f96c881c18e4e9b53fc7ec01413b03a9" style="width: 100.0%; height: 100.0%;">Wrocław-Krzyki, św. Augustyna<br>Sudecka 90, 53-129 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_b8495eaf11ef740f125abf25781dc4ff.setContent(html_f96c881c18e4e9b53fc7ec01413b03a9);
-            
-        
-
-        circle_marker_ce26d487d14986edcf2af50ffac2aabd.bindPopup(popup_b8495eaf11ef740f125abf25781dc4ff)
-        ;
-
-        
-    
-    
-            circle_marker_ce26d487d14986edcf2af50ffac2aabd.bindTooltip(
-                `<div>
-                     Wrocław-Krzyki, św. Augustyna<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1161bae56c341de2672a54b8245c83aa = L.circleMarker(
-                [51.1208147, 16.8753926],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_813e99231632c74fc948a0c3264881b6 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d410a37fd630f092fb29d94c983fdb9d = $(`<div id="html_d410a37fd630f092fb29d94c983fdb9d" style="width: 100.0%; height: 100.0%;">Wrocław-Jerzmanowo, Najświętszej Maryi Panny Królowej Polski<br>Jerzmanowska 83, 54-530 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_813e99231632c74fc948a0c3264881b6.setContent(html_d410a37fd630f092fb29d94c983fdb9d);
-            
-        
-
-        circle_marker_1161bae56c341de2672a54b8245c83aa.bindPopup(popup_813e99231632c74fc948a0c3264881b6)
-        ;
-
-        
-    
-    
-            circle_marker_1161bae56c341de2672a54b8245c83aa.bindTooltip(
-                `<div>
-                     Wrocław-Jerzmanowo, Najświętszej Maryi Panny Królowej Polski<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_9a9278c5bcfd139b4a11bd8b09cc817b = L.circleMarker(
-                [51.1254187, 16.9522238],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_91f0c2f6b1f6cd406c81c83ea219492f = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_9dedc778b1a3309a0a03cc3a56e8bde0 = $(`<div id="html_9dedc778b1a3309a0a03cc3a56e8bde0" style="width: 100.0%; height: 100.0%;">Wrocław-Kuźniki, św. Andrzeja Boboli<br>Koszalińska 15, 54-316 Wrocław<br>Status: W toku</div>`)[0];
-                popup_91f0c2f6b1f6cd406c81c83ea219492f.setContent(html_9dedc778b1a3309a0a03cc3a56e8bde0);
-            
-        
-
-        circle_marker_9a9278c5bcfd139b4a11bd8b09cc817b.bindPopup(popup_91f0c2f6b1f6cd406c81c83ea219492f)
-        ;
-
-        
-    
-    
-            circle_marker_9a9278c5bcfd139b4a11bd8b09cc817b.bindTooltip(
-                `<div>
-                     Wrocław-Kuźniki, św. Andrzeja Boboli<br>W toku
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_25b5e3a9f332ea18f22e2dddc90e8037 = L.circleMarker(
-                [51.1470334, 16.8685804],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_b17a3c70837f00d70733636b0b92cccc = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_7f5de86708601532731c38d63dcbb0c5 = $(`<div id="html_7f5de86708601532731c38d63dcbb0c5" style="width: 100.0%; height: 100.0%;">Wrocław-Leśnica, św. Jadwigi Śląskiej<br>Wolska 6, 54-076 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_b17a3c70837f00d70733636b0b92cccc.setContent(html_7f5de86708601532731c38d63dcbb0c5);
-            
-        
-
-        circle_marker_25b5e3a9f332ea18f22e2dddc90e8037.bindPopup(popup_b17a3c70837f00d70733636b0b92cccc)
-        ;
-
-        
-    
-    
-            circle_marker_25b5e3a9f332ea18f22e2dddc90e8037.bindTooltip(
-                `<div>
-                     Wrocław-Leśnica, św. Jadwigi Śląskiej<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1564b65d0c9629eb83684a8afca9b8ab = L.circleMarker(
-                [51.1742967, 16.9095684],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_12bb54868e4a09d29d74f74edf5fc296 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_1b687cc41c0b607a5bd1e4e6dc9f623f = $(`<div id="html_1b687cc41c0b607a5bd1e4e6dc9f623f" style="width: 100.0%; height: 100.0%;">Wrocław-Pracze Odrzańskie, św. Anny<br>Brodzka 163, 54-067 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_12bb54868e4a09d29d74f74edf5fc296.setContent(html_1b687cc41c0b607a5bd1e4e6dc9f623f);
-            
-        
-
-        circle_marker_1564b65d0c9629eb83684a8afca9b8ab.bindPopup(popup_12bb54868e4a09d29d74f74edf5fc296)
-        ;
-
-        
-    
-    
-            circle_marker_1564b65d0c9629eb83684a8afca9b8ab.bindTooltip(
-                `<div>
-                     Wrocław-Pracze Odrzańskie, św. Anny<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_0a0765101ab10eb99c93f78ec8fa6836 = L.circleMarker(
-                [51.151202, 16.8917838],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_6156f90586135854114d863f48c1ed31 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_cd60f1b85ac53662c26a736f57b1a2c1 = $(`<div id="html_cd60f1b85ac53662c26a736f57b1a2c1" style="width: 100.0%; height: 100.0%;">Wrocław-Stabłowice, św. Andrzeja Apostoła<br>Boguszowska 84, 54-046 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_6156f90586135854114d863f48c1ed31.setContent(html_cd60f1b85ac53662c26a736f57b1a2c1);
-            
-        
-
-        circle_marker_0a0765101ab10eb99c93f78ec8fa6836.bindPopup(popup_6156f90586135854114d863f48c1ed31)
-        ;
-
-        
-    
-    
-            circle_marker_0a0765101ab10eb99c93f78ec8fa6836.bindTooltip(
-                `<div>
-                     Wrocław-Stabłowice, św. Andrzeja Apostoła<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_575528fa31486f2cc34e4186f99b19fb = L.circleMarker(
-                [51.1407027, 16.8885344],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_d6db94c047d24bf2657d3b36bcb125ec = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_9d16a7ef1fb8004410ff9995a74a0c53 = $(`<div id="html_9d16a7ef1fb8004410ff9995a74a0c53" style="width: 100.0%; height: 100.0%;">Wrocław-Złotniki, Najświętszej Maryi Panny Różańcowej<br>Wielkopolska 5, 54-027 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_d6db94c047d24bf2657d3b36bcb125ec.setContent(html_9d16a7ef1fb8004410ff9995a74a0c53);
-            
-        
-
-        circle_marker_575528fa31486f2cc34e4186f99b19fb.bindPopup(popup_d6db94c047d24bf2657d3b36bcb125ec)
-        ;
-
-        
-    
-    
-            circle_marker_575528fa31486f2cc34e4186f99b19fb.bindTooltip(
-                `<div>
-                     Wrocław-Złotniki, Najświętszej Maryi Panny Różańcowej<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_fa2cbfebf72531b8ad4b5f1ee1a2243c = L.circleMarker(
-                [51.1237129, 16.919394],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_9a7a06ee91a5ae96f647b98b5ca26d95 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_542868cf9d08c27aa89590cabea444e9 = $(`<div id="html_542868cf9d08c27aa89590cabea444e9" style="width: 100.0%; height: 100.0%;">Wrocław-Żerniki, św. Wawrzyńca<br>Żernicka 249, 54-510 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_9a7a06ee91a5ae96f647b98b5ca26d95.setContent(html_542868cf9d08c27aa89590cabea444e9);
-            
-        
-
-        circle_marker_fa2cbfebf72531b8ad4b5f1ee1a2243c.bindPopup(popup_9a7a06ee91a5ae96f647b98b5ca26d95)
-        ;
-
-        
-    
-    
-            circle_marker_fa2cbfebf72531b8ad4b5f1ee1a2243c.bindTooltip(
-                `<div>
-                     Wrocław-Żerniki, św. Wawrzyńca<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_46a434cea3a01c21dc62de5c7a00e7b7 = L.circleMarker(
-                [51.1325548, 16.9743976],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_3ab178c6952a9c9b6c8cf4d100e8178f = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_7612758d2e8f5d6f89d81ee8e48e3193 = $(`<div id="html_7612758d2e8f5d6f89d81ee8e48e3193" style="width: 100.0%; height: 100.0%;">Wrocław-Kozanów, św. Jadwigi<br>Pilczycka 25, 54-150 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_3ab178c6952a9c9b6c8cf4d100e8178f.setContent(html_7612758d2e8f5d6f89d81ee8e48e3193);
-            
-        
-
-        circle_marker_46a434cea3a01c21dc62de5c7a00e7b7.bindPopup(popup_3ab178c6952a9c9b6c8cf4d100e8178f)
-        ;
-
-        
-    
-    
-            circle_marker_46a434cea3a01c21dc62de5c7a00e7b7.bindTooltip(
-                `<div>
-                     Wrocław-Kozanów, św. Jadwigi<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_64d0c224e53e53ac4834fd06f3ad1990 = L.circleMarker(
-                [51.1594089, 16.9335597],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_84de6a3aa33a80fa500f4884d7b9f1dc = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2b07da5ea5744752544c029c7c09d000 = $(`<div id="html_2b07da5ea5744752544c029c7c09d000" style="width: 100.0%; height: 100.0%;">Wrocław-Maślice, św. Agnieszki<br>Maślice, 54-107 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_84de6a3aa33a80fa500f4884d7b9f1dc.setContent(html_2b07da5ea5744752544c029c7c09d000);
-            
-        
-
-        circle_marker_64d0c224e53e53ac4834fd06f3ad1990.bindPopup(popup_84de6a3aa33a80fa500f4884d7b9f1dc)
-        ;
-
-        
-    
-    
-            circle_marker_64d0c224e53e53ac4834fd06f3ad1990.bindTooltip(
-                `<div>
-                     Wrocław-Maślice, św. Agnieszki<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_f35fd488c7c28d240a741a8458452d5a = L.circleMarker(
-                [51.1092193, 16.9614883],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_cc1f7ca03e237b9e08a31616dbbdc554 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_a794e16c5d6306229eb9c4e9f20fa7e6 = $(`<div id="html_a794e16c5d6306229eb9c4e9f20fa7e6" style="width: 100.0%; height: 100.0%;">Wrocław-Muchobór Mały, Najświętszej Maryi Panny Nieustającej Pomocy<br>Szkocka 35, 52-443 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_cc1f7ca03e237b9e08a31616dbbdc554.setContent(html_a794e16c5d6306229eb9c4e9f20fa7e6);
-            
-        
-
-        circle_marker_f35fd488c7c28d240a741a8458452d5a.bindPopup(popup_cc1f7ca03e237b9e08a31616dbbdc554)
-        ;
-
-        
-    
-    
-            circle_marker_f35fd488c7c28d240a741a8458452d5a.bindTooltip(
-                `<div>
-                     Wrocław-Muchobór Mały, Najświętszej Maryi Panny Nieustającej Pomocy<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_7c3230f9a0101559a756d1d75b729d6e = L.circleMarker(
-                [51.0988449, 16.9430668],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_5bbaf39071c46211ff7a639b2f80fab8 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_71a9cd4471bdcb6bac8a22f6845fb154 = $(`<div id="html_71a9cd4471bdcb6bac8a22f6845fb154" style="width: 100.0%; height: 100.0%;">Wrocław-Muchobór Wlk., św. Michała Archanioła<br>Stanisławowska 87, 54-611 Wrocław<br>Status: Nie rozpoczęto</div>`)[0];
-                popup_5bbaf39071c46211ff7a639b2f80fab8.setContent(html_71a9cd4471bdcb6bac8a22f6845fb154);
-            
-        
-
-        circle_marker_7c3230f9a0101559a756d1d75b729d6e.bindPopup(popup_5bbaf39071c46211ff7a639b2f80fab8)
-        ;
-
-        
-    
-    
-            circle_marker_7c3230f9a0101559a756d1d75b729d6e.bindTooltip(
-                `<div>
-                     Wrocław-Muchobór Wlk., św. Michała Archanioła<br>Nie rozpoczęto
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1da9b531b0b8bc2f64c8de1cb21b886d = L.circleMarker(
-                [51.1150346, 16.9572998],
-                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
-            ).addTo(map_fb08025432df91b837be2d9c306ebad8);
-        
-    
-        var popup_d1b8f92c7f12c299fe208454625ce38b = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_9235c0059ba2cbf78c9f5c5dddb58e2c = $(`<div id="html_9235c0059ba2cbf78c9f5c5dddb58e2c" style="width: 100.0%; height: 100.0%;">Wrocław-Nowy Dwór, Opatrzności Bożej<br>Nowodworska 64, 54-438 Wrocław<br>Status: W toku</div>`)[0];
-                popup_d1b8f92c7f12c299fe208454625ce38b.setContent(html_9235c0059ba2cbf78c9f5c5dddb58e2c);
-            
-        
-
-        circle_marker_1da9b531b0b8bc2f64c8de1cb21b886d.bindPopup(popup_d1b8f92c7f12c299fe208454625ce38b)
-        ;
-
-        
-    
-    
-            circle_marker_1da9b531b0b8bc2f64c8de1cb21b886d.bindTooltip(
-                `<div>
-                     Wrocław-Nowy Dwór, Opatrzności Bożej<br>W toku
+                     Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Współpraca
                  </div>`,
                 {
   "sticky": true,
