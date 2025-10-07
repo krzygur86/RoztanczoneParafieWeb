@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39f20d8a8a0e43deca39664e6a0b0f8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+<div style="position: fixed; bottom: 50px; left: 50px; 
+            width: 220px; height: 220px; border:2px solid grey; 
+            z-index:9999; font-size:14px; background-color:white;
+            padding: 10px">
+    <b>Legenda</b><br>
+    <i style="color:green">■</i> Współpraca<br>
+</div>
+    
+            <div class="folium-map" id="map_39f20d8a8a0e43deca39664e6a0b0f8c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39f20d8a8a0e43deca39664e6a0b0f8c = L.map(
+                "map_39f20d8a8a0e43deca39664e6a0b0f8c",
+                {
+                    center: [51.1079, 17.0385],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00abffb4a31c16e292e36b4f53f84a97 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_00abffb4a31c16e292e36b4f53f84a97.addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+            var circle_marker_a289fc1861602e327de170687f372b97 = L.circleMarker(
+                [51.1342612, 17.0799111],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_c1b4c3b5413d8ba9e7d60b42cbb2e757 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67df5059ccb7d7ef1431d2777f9c0d44 = $(`<div id="html_67df5059ccb7d7ef1431d2777f9c0d44" style="width: 100.0%; height: 100.0%;">Wrocław-Kowale, Najświętszej Maryi Panny Matki Miłosierdzia<br>Brücknera 20/22, 51-411 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_c1b4c3b5413d8ba9e7d60b42cbb2e757.setContent(html_67df5059ccb7d7ef1431d2777f9c0d44);
+            
+        
+
+        circle_marker_a289fc1861602e327de170687f372b97.bindPopup(popup_c1b4c3b5413d8ba9e7d60b42cbb2e757)
+        ;
+
+        
+    
+    
+            circle_marker_a289fc1861602e327de170687f372b97.bindTooltip(
+                `<div>
+                     Wrocław-Kowale, Najświętszej Maryi Panny Matki Miłosierdzia<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_356e7371a36cb53d8c3a79e22c283525 = L.circleMarker(
+                [51.1214348, 17.0416381],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_0cf1872b39f3727b640fc8da824d4188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67b03637bc1108a1aafe806f52da3712 = $(`<div id="html_67b03637bc1108a1aafe806f52da3712" style="width: 100.0%; height: 100.0%;">Wrocław-Ołbin, Opieki św. Józefa<br>Ołbińska 1, 50-233 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_0cf1872b39f3727b640fc8da824d4188.setContent(html_67b03637bc1108a1aafe806f52da3712);
+            
+        
+
+        circle_marker_356e7371a36cb53d8c3a79e22c283525.bindPopup(popup_0cf1872b39f3727b640fc8da824d4188)
+        ;
+
+        
+    
+    
+            circle_marker_356e7371a36cb53d8c3a79e22c283525.bindTooltip(
+                `<div>
+                     Wrocław-Ołbin, Opieki św. Józefa<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54d93231743b9236d9bc045862aa258d = L.circleMarker(
+                [51.1065101, 17.0463125],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_90ca5728a95b5a29a21d16cfaae1fd0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_618ae6e12404437be6cea51c6c4a4e6a = $(`<div id="html_618ae6e12404437be6cea51c6c4a4e6a" style="width: 100.0%; height: 100.0%;">św. Maurycego<br>Traugutta 34	 50-417 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_90ca5728a95b5a29a21d16cfaae1fd0e.setContent(html_618ae6e12404437be6cea51c6c4a4e6a);
+            
+        
+
+        circle_marker_54d93231743b9236d9bc045862aa258d.bindPopup(popup_90ca5728a95b5a29a21d16cfaae1fd0e)
+        ;
+
+        
+    
+    
+            circle_marker_54d93231743b9236d9bc045862aa258d.bindTooltip(
+                `<div>
+                     św. Maurycego<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_21a334438836c1fe5b8af4fec43b804c = L.circleMarker(
+                [51.0778073, 17.0624361],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_5886d284ad5bfcdcec43649260ad6b0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c1920dad718be725990c2881c0dc720 = $(`<div id="html_9c1920dad718be725990c2881c0dc720" style="width: 100.0%; height: 100.0%;">Wrocław-Tarnogaj, św. Stefana<br>Kamieniecka 72, 50-511 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_5886d284ad5bfcdcec43649260ad6b0b.setContent(html_9c1920dad718be725990c2881c0dc720);
+            
+        
+
+        circle_marker_21a334438836c1fe5b8af4fec43b804c.bindPopup(popup_5886d284ad5bfcdcec43649260ad6b0b)
+        ;
+
+        
+    
+    
+            circle_marker_21a334438836c1fe5b8af4fec43b804c.bindTooltip(
+                `<div>
+                     Wrocław-Tarnogaj, św. Stefana<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba4998c31a7d916c249780c586d03c20 = L.circleMarker(
+                [51.1371945, 17.0416939],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_39a4426717b0536737c65f4266e1318f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68faddedfa5ce68ce9deed2f4c4370c3 = $(`<div id="html_68faddedfa5ce68ce9deed2f4c4370c3" style="width: 100.0%; height: 100.0%;">Wrocław-Karłowice, św. Antoniego<br>aleja Jana Kasprowicza 26, 51-131 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_39a4426717b0536737c65f4266e1318f.setContent(html_68faddedfa5ce68ce9deed2f4c4370c3);
+            
+        
+
+        circle_marker_ba4998c31a7d916c249780c586d03c20.bindPopup(popup_39a4426717b0536737c65f4266e1318f)
+        ;
+
+        
+    
+    
+            circle_marker_ba4998c31a7d916c249780c586d03c20.bindTooltip(
+                `<div>
+                     Wrocław-Karłowice, św. Antoniego<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d1162362f7bb8ef2c9b1f66dc557898 = L.circleMarker(
+                [51.1152229, 17.0130865],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_4507377fed3094d2c58020ed12658eca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94b615a1b35aff96733b711766ca060a = $(`<div id="html_94b615a1b35aff96733b711766ca060a" style="width: 100.0%; height: 100.0%;">Wrocław, Chrystusa Króla<br>Młodych Techników 17, 53-647 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_4507377fed3094d2c58020ed12658eca.setContent(html_94b615a1b35aff96733b711766ca060a);
+            
+        
+
+        circle_marker_2d1162362f7bb8ef2c9b1f66dc557898.bindPopup(popup_4507377fed3094d2c58020ed12658eca)
+        ;
+
+        
+    
+    
+            circle_marker_2d1162362f7bb8ef2c9b1f66dc557898.bindTooltip(
+                `<div>
+                     Wrocław, Chrystusa Króla<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_447af6b79b77052967b85401cf3eebe7 = L.circleMarker(
+                [51.1521481, 17.0703363],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_f144d96905d9293c4efa4df6e6a68a72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00a0e3d4b28c787a8f57d5b111a2c05 = $(`<div id="html_b00a0e3d4b28c787a8f57d5b111a2c05" style="width: 100.0%; height: 100.0%;">Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Redycka 10/12, 51-169 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_f144d96905d9293c4efa4df6e6a68a72.setContent(html_b00a0e3d4b28c787a8f57d5b111a2c05);
+            
+        
+
+        circle_marker_447af6b79b77052967b85401cf3eebe7.bindPopup(popup_f144d96905d9293c4efa4df6e6a68a72)
+        ;
+
+        
+    
+    
+            circle_marker_447af6b79b77052967b85401cf3eebe7.bindTooltip(
+                `<div>
+                     Wrocław-Sołtysowice, św. Alberta Wielkiego<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50cb068cb0e00c03ab9e7825ea02cc34 = L.circleMarker(
+                [51.0753384, 16.972484],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_79c5716893a6972b474e5be33d3a1285 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2d776a9e54d5439846a4c87d79cd804 = $(`<div id="html_e2d776a9e54d5439846a4c87d79cd804" style="width: 100.0%; height: 100.0%;">Wrocław-Oporów, św. Anny<br>Sobótki 42, 52-433 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_79c5716893a6972b474e5be33d3a1285.setContent(html_e2d776a9e54d5439846a4c87d79cd804);
+            
+        
+
+        circle_marker_50cb068cb0e00c03ab9e7825ea02cc34.bindPopup(popup_79c5716893a6972b474e5be33d3a1285)
+        ;
+
+        
+    
+    
+            circle_marker_50cb068cb0e00c03ab9e7825ea02cc34.bindTooltip(
+                `<div>
+                     Wrocław-Oporów, św. Anny<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40 = L.circleMarker(
+                [51.1041119, 17.1454488],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_39f20d8a8a0e43deca39664e6a0b0f8c);
+        
+    
+        var popup_ad779c1e7a1cae17dec586e6b172ffd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_412d545fa422e79a569e81e45461986e = $(`<div id="html_412d545fa422e79a569e81e45461986e" style="width: 100.0%; height: 100.0%;">Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Tatarakowa 1, 51-516 Wrocław<br>Status: Współpraca</div>`)[0];
+                popup_ad779c1e7a1cae17dec586e6b172ffd9.setContent(html_412d545fa422e79a569e81e45461986e);
+            
+        
+
+        circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40.bindPopup(popup_ad779c1e7a1cae17dec586e6b172ffd9)
+        ;
+
+        
+    
+    
+            circle_marker_fff0fe2e3b68aeac3186f7d872c4bd40.bindTooltip(
+                `<div>
+                     Wrocław-Strachocin, Najświętszej Maryi Panny Bolesnej<br>Współpraca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
